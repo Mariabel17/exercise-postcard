@@ -6,7 +6,7 @@ body {
 	min-height: 10px;
 }
 p {
-	color: blue;
+	color: black;
 }
 .postcard {
 	background-color: white;
@@ -22,9 +22,30 @@ p {
 	height: 50px;
 }
 .postcard-header h1{
-	width: 100%;
+	width: 200%;
 	margin: 0%;
 }
 .postcard-body {
 	display:flex
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left, 
+.body-right {
+	padding: 10px;
+}
+p {
+	font-size: small;
+}
+input {
+	border: none;
+	border-bottom: grey;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: gainsboro;
+	padding: auto;
 }
